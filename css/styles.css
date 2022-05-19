@@ -1,0 +1,49 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    margin-top: 10%;
+    margin-left: 39%;
+    width:250px;
+    height:250px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    background-color: #009DFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   
+}
+
+
+button{
+    width:80px;
+    height:80px;
+    outline:none;
+    border:none;
+    background-color: white;
+     font-family: 'Oswald';
+    font-size:60px;
+    margin:0 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    cursor:pointer;
+    transition:all 0.2s ease-in-out;
+    
+}
+
+.button-plus{
+    margin-top: 25px;
+    margin-left: 40%;
+}
+
+
+button:hover{
+    transform: scale(1.01);
+}
+button:active{
+    background-color: #cccccc;
+}
+
