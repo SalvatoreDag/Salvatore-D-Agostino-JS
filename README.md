@@ -10,3 +10,5 @@ Steps for creating the project:
  3. Added elements created to html
  4. Added the events to the buttons and created the function to update the display
  5. Stylized everything with css
+
+Click here to try my project: https://salvatoredag.github.io/Salvatore-D-Agostino-JS/
