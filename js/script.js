@@ -27,8 +27,10 @@ buttonPlus.addEventListener('click', () =>{
 
   //create minus button event
 buttonMinus.addEventListener('click', () =>{
+  if(count>0){  //to prevent the counter from going below zero
        count--;
        updateDisplay();
+  }
   });
 
   //update display
